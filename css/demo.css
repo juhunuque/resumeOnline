@@ -1,0 +1,116 @@
+
+.cv-style-switch {
+    background: #ffffff none repeat scroll 0 0;
+    opacity: 0.95;
+    position: fixed;
+    right: -300px;
+    top: 260px;
+    z-index: 9999;
+}
+.cv-style-switch a, .cv-style-switch a:hover {
+    display: block;
+}
+.cv-style-switch:hover {
+    opacity: 1 !important;
+}
+.cv-style-switch .switched-options {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    width: 300px;
+}
+.cv-style-switch .config-title {
+    border-bottom: 1px dotted #cccccc;
+    border-top: 1px dotted #cccccc;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.cv-style-switch ul {
+    margin-bottom: 25px;
+}
+.cv-style-switch ul .active a {
+    color: #005885;
+    font-weight: 700;
+}
+.cv-style-switch ul .p {
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.cv-style-switch ul li a {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.cv-style-switch ul li a:hover {
+    color: #008ed6;
+}
+.cv-style-switch ul.styles {
+    margin-top: 15px;
+}
+.cv-style-switch ul.styles li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.cv-style-switch ul.styles li .lime, .cv-style-switch ul.styles li .red, .cv-style-switch ul.styles li .coral-red, .cv-style-switch ul.styles li .purple, .cv-style-switch ul.styles li .blue, .cv-style-switch ul.styles li .orange, .cv-style-switch ul.styles li .green, .cv-style-switch ul.styles li .pink, .cv-style-switch ul.styles li .bottle {
+    height: 26px;
+    width: 26px;
+}
+.cv-style-switch ul.styles li .lime {
+    background: #5da4d9 none repeat scroll 0 0 !important;
+}
+.cv-style-switch ul.styles li .red {
+    background: #e74c3c none repeat scroll 0 0;
+}
+.cv-style-switch ul.styles li .coral-red {
+    background: #fe4444 none repeat scroll 0 0;
+}
+.cv-style-switch ul.styles li .purple {
+    background: #673ab7 none repeat scroll 0 0;
+}
+.cv-style-switch ul.styles li .blue {
+    background: #5da4d9 none repeat scroll 0 0;
+}
+.cv-style-switch ul.styles li .orange {
+    background: #e67e22 none repeat scroll 0 0;
+}
+.cv-style-switch ul.styles li .green {
+    background: #1abc9c none repeat scroll 0 0;
+}
+.cv-style-switch ul.styles li .bottle {
+    background: #2aa09b none repeat scroll 0 0;
+}
+.cv-style-switch .switch-button {
+    background: #fff none repeat scroll 0 0;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #272727;
+    font-size: 24px;
+    left: -44px;
+    opacity: 1 !important;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+}
+.cv-style-switch .switch-button:hover {
+    color: #008ed6;
+    cursor: pointer;
+    text-decoration: none;
+}
+.version-title {
+    border-bottom: 1px dotted #cccccc;
+    border-top: 1px dotted #cccccc;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}

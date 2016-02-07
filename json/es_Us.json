@@ -1,0 +1,94 @@
+{
+    "menu": {
+            "item1": "Inicio",
+            "item2": "Acerca de",
+            "item3": "Trabajos",
+            "item4": "Conocimientos",
+            "item5": "Educación"
+        },
+    "about": {
+        "title": "Desarrollador de Software",
+        "description": "Un apasionado de la tecnología, siempre en la búsqueda de mejorar sus propias habilidades. Con la habilidad y la experiencia necesaria para diseñar y ejecutar proyectos informáticos, ya sea solo o trabajando en equipo. Se caracteriza por ser una persona con gran sentido de la responsabilidad y compromiso para con los proyectos asignados. Gran habilidad para la resolución de problemas y análisis. Una persona que siempre va más allá de sus tareas, buscando siempre la mejor manera de hacer las cosas.",
+        "button": "Descargar CV"
+        
+    },
+    "web":{
+        "item1": "Experiencia trabajando con tecnologías FRONTEND (HTML5, CSS3, JS, etc).",
+        "item2": "Frameworks CSS (Materialize, Bootstrap, Foundation, etc)",
+        "item3": "Frameworks JAVASCRIPT tales como ANGULAR, REACTJS, METEOR, etc",
+        "item4": "Experiencia en patrones de diseño orientados a MVC o arquitecturas orientadas a servicios (REST)",
+        "item5": "Conocimiento en diferentes SCRIPT LANGUAGES tales como JSP, ASP .NET, RUBY, COLDFUSION, etc",
+        "item6": "Conocimiento en pre-procesadores CSS (SASS, LESS, etc)"
+    },
+    "backend":{
+        "item1": "Experiencia desarrollando sistemas bajo ORACLE FORMS",
+        "item2": "Amplio conocimiento en sistemas desarrollados bajo JAVA EE y diferentes frameworks tales como STRUTS2, JSF, SPRING, etc",
+        "item3": "Conocimiento en otros lenguajes BACKEND, tales como PHP, SCALA, DELPHI, C++, C#, VB .NET, PYTHON,  etc",
+        "item4": "Conocimiento en desarrollo de servicios basados en NODEJS",
+        "item5": "Experiencia en diferentes servidores de aplicaciones (JBOSS, GLASSFISH, WEBLOGIC, etc)",
+        "item6": "Experiencia en reportes en tecnologías tales como JASPER u ORACLE REPORTS BUILDER"
+    },
+    "db":{
+        "item1": "Amplio conocimiento SQL en diferentes motores",
+        "item2": "Experiencia y conocimiento en motores SQL tales como ORACLE, POSTGRESQL, MYSQL, SQL SERVER, etc",
+        "item3": "Conocimiento en bases de datos NOSQL tales como MONGODB",
+        "item4": "Experiencia en desarrollo de scripts PL/SQL"
+    },
+    "others":{
+        "item1": "Ingles técnico avanzado",
+        "item2": "Gran habilidad para el análisis y resolución de problemas",
+        "item3": "Autodidacta",
+        "item4": "Capacidad para desarrollar proyectos solo o en equipo",
+        "item5": "Experiencia en soporte técnico (HARDWARE, SOFTWARE",
+        "item6": "Amplio conocimiento en ambientes LINUX, WINDOWS y MAC OS"
+    },
+    "work":{
+        "title": "EXPERIENCIA LABORAL",
+        "rossmon":[
+            {
+                "title":"Desarrollador",
+                "time": "2013 – 2014",
+                "project": "Proyecto: Sistema de Plantillas Web",
+                "description": "Sistema creado para la automatización del libro de estilos de los proyectos de la compañía. Su principal función es la de administrar la parte visual (CSS) de los proyectos de la compañía, permitiendo a los desarrolladores enfocarse solamente en el código BACKEND, y dejando la parte FRONTEND a cargo de este sistema.Este proyecto requirió conocimiento en POSTGRESQL, JAVA EE (Framework STRUTS2 como MVC), EJB (usado como ORM en los proyectos de la empresa). Además, involucro tecnologías FRONTEND como HTML5, CSS3 y JS."
+            },
+            {
+                "title":"Desarrollador",
+                "time": "2013 – 2014",
+                "project": "Proyecto: Sistema de Activos y Pasivos Financieros (SAPF)",
+                "description": "Sistema creado para el control de Activos y Pasivos financieros dentro de la compañía nacional JASEC, como parte de un proyecto Outsource. La función principal era la creación de una herramienta que permitiera al departamento financiero llevar controles de los distintos activos y pasivos que se manejan dentro de la empresa, además de comunicarse con los demás módulos contables. Este proyecto fue realizado usando tecnologías ORACLE, así que se requirió conocimientos en bases de datos ORACLE(10g), ORACLE FORMS para la creación de la aplicación y ORACLE REPORTS BUILDER para la parte de reportes" 
+            }
+        ],
+        "snap":[
+            {
+                "title":"Desarrollador",
+                "time": "2014 – Actualidad",
+                "project": "Equipo: Application Support Team",
+                "description1": "Responsables del mantenimiento de la aplicación Snap App!, haciendo tareas de DATA FIXING a nivel de base de datos, análisis de código e implementación de soluciones en código en caso de problemas en el ambiente de producción",
+                "description2": "En este equipo tuve la oportunidad de automatizar varios procesos de DATA FIXING, creando scripts PL/pgSQL, con el fin de facilitar tareas recurrentes y reducir el tiempo de respuesta de las mismas, permitiéndonos enfocarnos en otras tareas.  Además, esta automatización permitió disminuir el tiempo de aprendizaje de los nuevos integrantes del equipo, ya que les permitió enfocarse mayormente en las reglas del negocio y la arquitectura del sistema, dejando la parte SQL a un lado.",
+                "description3": "Además tuve la oportunidad de implementar mejoras en procesos del sistema, tal como el desarrollo de un módulo dentro de la aplicación para el equipo, permitiéndonos resolver problemas de DATA FIXING dentro de la misma aplicación."
+            },
+            {
+                "title":"Desarrollador",
+                "time": "2014 – Actualidad",
+                "project": "Equipo: R&D Team (RESEARCH AND DEVELOPMENT)",
+                "description1": "Responsables de la implementación de nuevas tecnologías dentro de la empresa, además de la creación de mejoras para los sistemas ya existentes.",
+                "description2": "La tarea principal es investigar sobre tecnologías que ayuden al negocio a crecer. En este equipo he tenido la posibilidad de aprovechar mi conocimiento sobre la empresa en la creación de nuevos módulos y funcionalidades. De las tecnologías predominantes dentro de la empresa encontramos JAVA, ANGULAR, POSTGRESQL y MONGODB, lo que me permitió mejorar mis conocimientos en estas."
+            }
+        ]
+    },
+    "education":{
+        "title":"EDUCACIÓN",
+        "titles":[
+            {
+                "university":"CUC",
+                "time":"2011 - 2014",
+                "title":"Diplomado Programación de Sistemas"
+            },
+            {
+                "university":"UMCA",
+                "time":"2014 - Actual",
+                "title":"Bachillerato Ingeniería en Informática"
+            }
+        ]
+    }
+}

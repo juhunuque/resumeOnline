@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html ng-app="resumeApp" ng-controller="ResumeCtrl">
+    <head>
+        <meta charset="utf-8"> 
+        
+        <!-- TITLE OF SITE -->
+        <title> Julio's CV/Resume </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <!-- GOOGLE FONTS -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,400' rel='stylesheet' type='text/css'>
+        
+        <!-- FRAMEWORK CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+        <!--<link rel="stylesheet" href="css/lightbox.css">-->
+        
+        <!-- FONT ICONS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        
+        <!-- ADDITIONAL CSS -->
+         <link rel="stylesheet" href="css/timeline.css">
+         <link rel="stylesheet" href="css/animate.css">
+         <link rel="stylesheet" href="css/nav.css">
+         <link rel="stylesheet" href="css/jquery.fancybox.css">
+        
+        <!--   COUSTOM CSS link  -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.min.css">
+        
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='bower_components/angular/angular.js'></script>
+        <script src='js/angular/app.js'></script>
+
+
+    </head>
+    <body>
+        <!-- =========================================
+                           HEADER TOP   
+        ==========================================-->
+        <header id="header-top"> <!--Start: "Header Area"-->
+            <div class="container">
+                <div class="row">
+                    <div class="top-contact col m12 s12 right">
+                        <span><i class="fa fa-envelope"></i> <a href="mailto:juhunuque@hotmail.com">juhunuque@hotmail.com</a></span>
+                        <span><i class="fa fa-phone"></i> <a href="tel:50687061605">(506) 87061605 </a></span> 
+                        <span><i class="fa fa-skype"></i> <a href="skype:juhunuque92?call">juhunuque92 </a></span> 
+                    </div>  
+                </div>
+            </div>
+            
+            <!-- =========================================
+                           NAVIGATION   
+            ==========================================-->
+            <div id="header-bottom" class="z-depth-1"> <!--Start: "Header Area"-->
+                <div id="sticky-nav">
+                    <div class="container">
+                        <div class="row">
+                            <nav class="nav-wrap"> 
+                                <ul class="hide-on-med-and-down group"  id="example-one">
+                                    <li class="current_page_item"><a href="#header-top">{{lang.menu.item1}}</a></li>
+                                    <li><a href="#about">{{lang.menu.item2}}</a></li>                                
+                                    <li><a href="#skills">{{lang.menu.item3}}</a></li>                                
+                                    <li><a href="#works">{{lang.menu.item4}}</a></li>                                
+                                    <li><a href="#education">{{lang.menu.item5}}</a></li>
+                                </ul>
+                                <ul class="side-nav" id="slide-out">
+                                    <li><a href="#header-bottom" class="active">{{lang.menu.item1}}</a></li>
+                                    <li><a href="#about">{{lang.menu.item2}}</a></li>                                
+                                    <li><a href="#skills">{{lang.menu.item3}}</a></li>                                
+                                    <li><a href="#works">{{lang.menu.item4}}</a></li>                                
+                                    <li><a href="#education">{{lang.menu.item5}}</a></li>
+                                </ul>
+                                <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--End: Header Area-->
+        </header> <!--End: Header Area-->
+        
+        <!-- =========================================
+                        ABOUT   
+        ==========================================-->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="intro z-depth-1 col m12">
+                        <div class="col m12 s12">
+                            <div class="profile-pic wow fadeIn a1" data-wow-delay="0.1s" >
+                                <img src="http://securahosting.com/wp-content/uploads/softwaredev-icon.svg" alt="">
+                            </div>
+                        </div> <!-- Img Logo --> 
+                        <div class="col m12 s12 co-centered wow fadeIn a2" data-wow-delay="0.2s">
+                            <div class="intro-content">
+                                <h2>Julio Núñez Q</h2>
+                                <span>{{lang.about.title}}</span>
+                                <p>{{lang.about.description}}</p>
+                                <a href="#" class="btn waves-effect">{{lang.about.button}}</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </section>
+        
+        <!-- =========================================
+                           SKILLS   
+        ==========================================-->
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title wow fadeIn a1" data-wow-delay="0.1s">
+                        <h2> <i class="fa fa-gears"></i>Skills</h2>
+                    </div>
+                    <div class="skill-line z-depth-1">
+                        <div class="row">
+                            <div class="col m6 s12">
+                                <div class="col m2 skill-icon">
+                                    <i class="fa fa-chrome"></i>
+                                </div>
+                                <div class="skill-bar col m10 wow fadeIn a1"  data-wow-delay="0.1s">
+                                    <h3>Web Skills </h3>
+                                    <ul class="collection">
+                                      <li class="collection-item">{{lang.web.item1}}</li>
+                                      <li class="collection-item">{{lang.web.item2}}</li>
+                                      <li class="collection-item">{{lang.web.item3}}</li>
+                                      <li class="collection-item">{{lang.web.item4}}</li>
+                                      <li class="collection-item">{{lang.web.item5}}</li>
+                                      <li class="collection-item">{{lang.web.item6}}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col m6 s12">
+                                <div class="col m2 skill-icon">
+                                    <i class="fa fa-server"></i>
+                                </div>
+                                <div class="skill-bar col m10 wow fadeIn a2" data-wow-delay="0.2s">
+                                    <h3>BackEnd Skills </h3>
+                                    <ul class="collection">
+                                      <li class="collection-item">{{lang.backend.item1}}</li>
+                                      <li class="collection-item">{{lang.backend.item2}}</li>
+                                      <li class="collection-item">{{lang.backend.item3}}</li>
+                                      <li class="collection-item">{{lang.backend.item4}}</li>
+                                      <li class="collection-item">{{lang.backend.item5}}</li>
+                                      <li class="collection-item">{{lang.backend.item6}}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col m6 s12">
+                                <div class="col m2 skill-icon">
+                                    <i class="fa fa-database"></i>
+                                </div>
+                                <div class="skill-bar col m10 wow fadeIn a1"  data-wow-delay="0.1s">
+                                    <h3>Databases Skills </h3>
+                                    <ul class="collection">
+                                      <li class="collection-item">{{lang.db.item1}}</li>
+                                      <li class="collection-item">{{lang.db.item2}}</li>
+                                      <li class="collection-item">{{lang.db.item3}}</li>
+                                      <li class="collection-item">{{lang.db.item4}}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col m6 s12">
+                                <div class="col m2 skill-icon">
+                                    <i class="fa fa-asterisk"></i>
+                                </div>
+                                <div class="skill-bar col m10 wow fadeIn a2" data-wow-delay="0.2s">
+                                    <h3>Other Skills </h3>
+                                    <ul class="collection">
+                                      <li class="collection-item">{{lang.others.item1}}</li>
+                                      <li class="collection-item">{{lang.others.item2}}</li>
+                                      <li class="collection-item">{{lang.others.item3}}</li>
+                                      <li class="collection-item">{{lang.others.item4}}</li>
+                                      <li class="collection-item">{{lang.others.item5}}</li>
+                                      <li class="collection-item">{{lang.others.item6}}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ========================================
+                WORKS EXPERIENCE  
+        ==========================================-->
+        <section id="works">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2> <i class="fa fa-suitcase"> </i>{{lang.work.title}}</h2>
+                    </div>
+                    <div id="cd-timeline" class="cd-container">
+                        <div class="cd-timeline-block wow fadeIn a5" data-wow-delay="0.5s">
+                			<div class="cd-timeline-img">
+            			    </div> <!-- cd-timeline-img -->
+                			<div class="cd-timeline-content col m5 s12 z-depth-1">
+                				<h2>{{lang.work.snap[1].title}}</h2>
+                				<span>{{lang.work.snap[1].time}}</span>
+                				<p><h6>{{lang.work.snap[1].project}}</h4></p>
+                                <p>{{lang.work.snap[1].description1}}</p>
+                                <br>
+                                <p>{{lang.work.snap[1].description2}}</p>
+                			</div> <!-- cd-timeline-content -->
+                		</div> <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block wow fadeIn a5" data-wow-delay="0.5s">
+                			<div class="cd-timeline-img">
+            			    </div> <!-- cd-timeline-img -->
+                			<div class="cd-timeline-content col m5 s12 z-depth-1">
+                				<h2>{{lang.work.snap[0].title}}</h2>
+                				<span>{{lang.work.snap[0].time}}</span>
+                				<p><h6>{{lang.work.snap[0].project}}</h4></p>
+                                <p>{{lang.work.snap[0].description1}}</p>
+                                <br>
+                                <p>{{lang.work.snap[0].description2}}</p>
+                                <br>
+                                <p>{{lang.work.snap[0].description3}}</p>
+                			</div> <!-- cd-timeline-content -->
+                		</div> <!-- cd-timeline-block -->
+                        <div class="cd-timeline-block wow fadeIn a3" data-wow-delay="0.3s">
+                                <div class="cd-timeline-img">
+                                </div> <!-- cd-timeline-img -->
+                                <div class="cd-timeline-content col m5 s12 z-depth-1">
+                                    <h2>{{lang.work.rossmon[1].title}}</h2>
+                                    <span>{{lang.work.rossmon[1].time}}</span>
+                                    <p><h6>{{lang.work.rossmon[1].project}}</h4></p>
+                                    <p>{{lang.work.rossmon[1].description}}</p>
+                                </div> <!-- cd-timeline-content -->
+                            </div> <!-- cd-timeline-block -->
+                		<div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
+                			<div class="cd-timeline-img">
+                			</div> <!-- cd-timeline-img -->
+                			<div class="cd-timeline-content col m5 s12 z-depth-1">
+                				<h2>{{lang.work.rossmon[0].title}}</h2>
+                				<span>{{lang.work.rossmon[0].time}}</span>
+                				<p><h6>{{lang.work.rossmon[0].project}}</h4></p>
+                                <p>{{lang.work.rossmon[0].description}}</p>
+                			</div> <!-- cd-timeline-content -->
+                		</div> <!-- cd-timeline-block -->
+                	</div> <!-- cd-timeline -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- =========================================
+                EDUCATION  
+        ==========================================-->
+        <section id="education">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title wow fadeIn a1" data-wow-delay="0.1s">
+                        <h2> <i class="fa fa-graduation-cap"></i>{{lang.education.title}}</h2>
+                    </div>
+                    
+                    <div class="cd-container" id="ed-timeline">
+                        <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
+                			<div class="cd-timeline-img">
+                			</div> <!-- cd-timeline-img -->
+                			<div class="cd-timeline-content col m5 s12 z-depth-1">
+                				<h2>{{lang.education.titles[1].university}}</h2>
+                				<span>{{lang.education.titles[1].time}}</span>
+                				<p>{{lang.education.titles[1].title}}</p>
+                			</div> <!-- cd-timeline-content -->
+                		</div> <!-- cd-timeline-block -->
+                		<div class="cd-timeline-block wow fadeIn a3" data-wow-delay="0.3s">
+                			<div class="cd-timeline-img">
+                			</div> <!-- cd-timeline-img -->
+                			<div class="cd-timeline-content col m5 s12 z-depth-1">
+                				<h2>{{lang.education.titles[0].university}}</h2>
+                				<span>{{lang.education.titles[0].time}}</span>
+                				<p>{{lang.education.titles[0].title}}</p>
+                			</div> <!-- cd-timeline-content -->
+                		</div> <!-- cd-timeline-block -->
+                	</div> <!-- cd-timeline -->
+                    
+                </div>
+            </div>
+        </section>
+
+                    
+                    <!-- =========================================
+                            INTEREST  
+                    ==========================================-->
+                    
+                    <div class="interests col s12 m12 l12 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row">
+                            <ul class="z-depth-1"> <!-- interetsr icon start -->
+                                <div class="row">
+                                    <div class="col s6 m6 l6 wow fadeIn center-align" data-wow-delay="0.1s">
+                                        <a href="#header-top" ng-click="toggleLang(false)">English Version</a>
+                                    </div>
+                                    <div class="col s6 m6 l6 wow fadeIn center-align" data-wow-delay="0.1s">
+                                        <a href="#header-top" ng-click="toggleLang(true)" >Version en Español</a>
+                                    </div>
+                                </div>
+                            </ul> <!-- interetsr icon end -->
+                        </div>
+                    </div>  
+                </div>
+            </div> 
+        </section>
+		
+        <!-- SCRIPTS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>  
+    <script src="js/masonry.pkgd.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <!-- wow js-->
+    <script src="js/wow.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="bower_components/angular-toastr/dist/angular-toastr.min.js"></script>
+    <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.min.js"></script>
+    
+    </body>
+</html>

@@ -1,0 +1,94 @@
+{
+    "menu": {
+            "item1": "Home",
+            "item2": "About",
+            "item3": "Skills",
+            "item4": "Works",
+            "item5": "Education"
+        },
+    "about": {
+        "title": "Software Developer",
+        "description": "An in love of technology, always trying to improve his own skills. He has the ability and the required experience to design and execute informatics projects, either single or in a team. Characterized by be a person with a great sense of accountability and compromise with the assigned projects. Great ability to problem resolution and analysis. Someone that always tries to go beyond his tasks, looking for the best way to do the things.",
+        "button": "Download CV"
+        
+    },
+    "web":{
+        "item1":"Experience working with FRONTEND technologies (HTML5, CSS3, JS, etc)",
+        "item2": "CSS frameworks (Materialize, Bootstrap, Foundation, etc)",
+        "item3":"JAVASCRIPT frameworks such as ANGULAR, REACTJS, METEOR, etc",
+        "item4":"Experience on MVC pattern or oriented services architectures (REST)",
+        "item5":"SCRIPT LANGUAGES, such as JSP, ASP .NET, RUBY, COLDFUSION, etc",
+        "item6":"Knowledge in CSS pre-processors (SASS, LESS, etc)"
+    },
+    "backend":{
+        "item1":"Experience developing systems using ORACLE FORMS",
+        "item2":"Wide knowledge on systems developed using JAVA EE, and different frameworks such as STRUTS2, JSF, SPRING, etc",
+        "item3": "Knowledge on another BACKEND languages, such as PHP, SCALA, DELPHI, C++, C#, PYTHON, VB .NET, etc",
+        "item4": "Knowledge on develop services based on NODEJS",
+        "item5": "Experience on different server applications (JBOSS, GLASSFISH, WEBLOGIC, etc)",
+        "item6": "Experience on reports, using technologies such as JASPER or ORACLE REPORTS BUILDER"
+    },
+    "db":{
+        "item1":"Wide SQL knowledge on different databases",
+        "item2": "Experience on databases such as ORACLE, POSTGRESQL, MYSQL, SQL SERVER, etc",
+        "item3": "Knowledge on databases NOSQL, such as MONGODB",
+        "item4": "Experience on develop PL/SQL scripts"
+    },
+    "others":{
+        "item1":"Advanced technical English",
+        "item2":"Great ability to problem resolution and analysis",
+        "item3": "Self-learning",
+        "item4": "Able to develop projects single or in a team",
+        "item5": "Experience on technical support (HARDWARE, SOFTWARE)",
+        "item6": "Wide knowledge on environments LINUX, WINDOWS and MAC OS"
+    },
+    "work":{
+        "title": "Work Experience",
+        "rossmon":[
+            {
+                "title":"Software Developer at Rossmon",
+                "time": "2013 - 2014",
+                "project": "Project: Sistema de Plantillas Web",
+                "description": "System created for automate the style book into the company projects. Its main function is administrate the visual part (CSS) of the company projects, allowing the developers focus on just the BACKEND side, and let the FRONTEND in charge of this system. Knowledge on POSTGRESQL, JAVA EE (Framework STRUTS2 as MVC), EJB (used as ORM on the company projects) was required. Also, FRONTEND technologies such as HTML5, CSS3 and JS were involved."
+            },
+            {
+                "title":"Software Developer at Rossmon",
+                "time": "2013 - 2014",
+                "project": "Project: Sistema de Activos y Pasivos Financieros (SAPF)",
+                "description": "System created for the control of financial assets and liabilities into the national company JASEC, as part of an Outsource project. Its main function was the creation of a system that allowed the financial department to keep track of the different assets and liabilities of the company, furthermore to connect it with the other financial modules. This project was developed using ORACLE technologies, so, knowledge on databases ORACLE (10g), ORACLE FORMS for the creation of the application and ORACLE REPORTS BUILDER for the reports, were required." 
+            }
+        ],
+        "snap":[
+            {
+                "title":"Software Developer at Snap Technology",
+                "time": "2014 - Currently",
+                "project": "Application Support Team",
+                "description1": "Responsible of the maintenance of the Snap App! Application, making tasks of DATA FIXING at database level, analysis of code and implement of code solutions in case of problems with the production environment.",
+                "description2": "On this team, I had the opportunity of automate some DATA FIXING process, making PL/pgSQL scripts, in order to facilitate recurring tasks and minimize the response time, allowing us to focus on others tasks. Also, this automation allowed minimize the learning time of the new members of the team, due to allow us to focus mostly on the business rules and the system architecture, setting aside the SQL.",
+                "description3": "Furthermore, I had the chance of implement improvements on the system processes, such as the creation of a module inside the application for the team, allowing us to resolve DATA FIXING problems since the application."
+            },
+            {
+                "title":"Software Developer at Snap Technology",
+                "time": "2014 - Currently",
+                "project": "R&D Team (Research and Development)",
+                "description1": "Responsible of implementation of new technologies inside the company, furthermore the creation of improvements on the existing systems.",
+                "description2": "The main task is research about technologies that help on the company growth. On this team, I had the chance of take advantage of my knowledge about the company on the creation of new modules and functionalities. Of the predominant technologies in the company, we have JAVA, ANGULAR, POSTGRESQL, MONGODB, so, I had the opportunity to improve on these technologies."
+            }
+        ]
+    },
+    "education":{
+        "title":"Education",
+        "titles":[
+            {
+                "university":"CUC",
+                "time":"2011 - 2014",
+                "title":"University Degree as Software Developer"
+            },
+            {
+                "university":"UMCA",
+                "time":"2014 - Current",
+                "title":"Bachelor Degree as Computer Engineering"
+            }
+        ]
+    }
+}
